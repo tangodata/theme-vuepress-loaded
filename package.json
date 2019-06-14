@@ -1,6 +1,11 @@
 {
-  "name": "tangodata/theme-vuepress-loaded",
+  "name": "theme-vuepress-loaded",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangodata/theme-vuepress-loaded.git",
+    "directory": ""
+  },
   "description": "VuePress theme for tangodata doc pages",
   "main": "index.js",
   "license": "MIT",
