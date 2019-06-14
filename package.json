@@ -1,0 +1,12 @@
+{
+  "name": "tangodata/theme-vuepress-loaded",
+  "version": "1.0.0",
+  "description": "VuePress theme for tangodata doc pages",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "@vuepress/theme-default": "^1.0.1"
+  }
+}
