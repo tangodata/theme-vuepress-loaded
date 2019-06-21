@@ -23,12 +23,14 @@
     "markdown-it-deflist": "^2.0.3",
     "markdown-it-wikicustom": "^0.0.6",
     "node-sass": "^4.12.0",
-    "pug": "~2.0.4",
+    "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.1.0",
     "vuepress-plugin-clean-urls": "^1.0.3",
     "vuepress-plugin-container": "^2.0.1",
     "vuepress-plugin-dehydrate": "^1.0.2",
-    "vuepress-plugin-named-chunks": "^1.0.2"
+    "vuepress-plugin-named-chunks": "^1.0.2",
+    "vuepress-plugin-seo": "^0.1.2",
+    "vuepress-plugin-sitemap": "^2.1.2"
   }
 }

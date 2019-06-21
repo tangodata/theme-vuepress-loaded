@@ -1,11 +1,11 @@
 <template lang="pug">
-.youtube(:class="type")
+.tagger(:class="type")
   slot
 </template>
 
 <script>
 export default {
-  functional: true,
+  name: 'tagger',
   props: [
     'type'
   ],
@@ -13,7 +13,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.youtube
+.tagger
   display inline-block
   font-size 18px
   height 22px

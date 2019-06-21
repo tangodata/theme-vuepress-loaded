@@ -9,6 +9,7 @@ module.exports = (options, ctx) => ({
 // fontawesome
 ////////////////////////////////////
 
+/*
   head: [
     ['link', {
       rel: 'stylesheet',
@@ -21,6 +22,7 @@ module.exports = (options, ctx) => ({
       crossorigin: 'anonymous'
     }]
   ],
+*/
 
 ////////////////////////////////////
 // Webpack modifications
@@ -65,6 +67,8 @@ plugins: [
         buttonText: "Refresh"
       }
     }],
+    'seo',
+    'sitemap',
 
   /*:
     'vuepress-plugin-blog-multidir',
