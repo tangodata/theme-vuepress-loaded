@@ -7,6 +7,12 @@ Take the basic vuepress theme, and add some bells and whistles
 - preload various Vuepress-plugins, Markdown-plugins
 - set favicon
 
+For a starter project, try:
+
+- https://gitlab.com/tangueros/webbook-starter
+- https://tangueros.gitlab.io/webbook-starter
+
+
 ## Change Log
 
 
