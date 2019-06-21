@@ -15,4 +15,6 @@ For a starter project, try:
 
 ## Change Log
 
-
+- Layout has slots which can be overridden
+  (sidebar-top), (page-bottom)
+  additional components here
