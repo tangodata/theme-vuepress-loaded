@@ -3,7 +3,7 @@
   .theme-default-content
     h1 404 Page Not Found
     blockquote {{ getMsg() }}
-    router-link to="/" Go Back to HOME
+    router-link(to="/") Go Back to HOME
 </template>
 
 <script>
