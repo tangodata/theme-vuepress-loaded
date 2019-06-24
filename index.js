@@ -141,23 +141,25 @@ plugins: [
 markdown: {
   toc: { includeLevel: [1, 2] },
   anchor: { permalink: false },
-  extendMarkdown: md => {
-    // use more markdown-it plugins!
-    md.use(require('markdown-it-deflist'))
-    md.use(require('markdown-it-attrs'))
+},
+
+
+extendMarkdown: md => {
+  // use more markdown-it plugins!
+  md.use(require('markdown-it-deflist'))
+  md.use(require('markdown-it-attrs'))
 /*
-    md.use(require('markdown-it-wikicustom')
-      ({
-        baseURL: '/wiki/',
-        makeAllLinksAbsolute: true,
-        htmlAttributes: {
-          'class':'wikilink',
-          'rel':'nofollow'
-        }
-      })
-    )
+  md.use(require('markdown-it-wikicustom')
+    ({
+      baseURL: '/wiki/',
+      makeAllLinksAbsolute: true,
+      htmlAttributes: {
+        'class':'wikilink',
+        'rel':'nofollow'
+      }
+    })
+  )
 */
-  },
 },
 
 ////////////////////////////////////
