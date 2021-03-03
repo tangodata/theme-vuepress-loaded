@@ -24,7 +24,7 @@
     "markdown-it-deflist": "^2.0.3",
     "markdown-it-wikicustom": "^0.0.6",
     "node-sass": "^4.12.0",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.1.0",
     "vuepress-plugin-clean-urls": "^1.0.3",
